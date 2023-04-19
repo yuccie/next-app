@@ -40,3 +40,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## 总结
 
 - next提供了组件，可以直接使用
+- pages其实就是根目录，文件路径就是路由地址
+
+### 问题列表
+
+- 拿到的文件，如何上传到服务器？
+    - 全栈项目，本身就是服务器，只需要将文件发送到某个api里
+
+- 拿到对应的文件，如何写入到数据库？
+    - 本地开发时，如果用数据库，需要本机安装mongodb，并连接
+    - 线上部署时，则需要使用vercel提供的数据库服务
+    - 线上和线下环境，则需要环境变量。
