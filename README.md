@@ -46,8 +46,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - 拿到的文件，如何上传到服务器？
     - 全栈项目，本身就是服务器，只需要将文件发送到某个api里
+    - 发送文件，需要什么格式？content-type: 
+
+- next框架使用的服务端渲染技术，所以浏览器看不到接口请求记录
+    - 那如何改为客户端发起请求呢？
 
 - 拿到对应的文件，如何写入到数据库？
     - 本地开发时，如果用数据库，需要本机安装mongodb，并连接
     - 线上部署时，则需要使用vercel提供的数据库服务
     - 线上和线下环境，则需要环境变量。
+
+- vercel会在代码推送后，自动部署。。。牛

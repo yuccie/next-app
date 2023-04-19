@@ -15,7 +15,7 @@ export default function Transfer() {
 
     const sendFiles = () => {
         if (!files) {
-            messageApi.info('Hello, Ant Design!');
+            messageApi.info('请先选择文件哦!');
             return
         }
 
