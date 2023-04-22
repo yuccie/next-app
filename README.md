@@ -44,6 +44,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### 问题列表
 
+- antd组件的使用方法，参考文档，
+
 - 拿到的文件，如何上传到服务器？
     - 全栈项目，本身就是服务器，只需要将文件发送到某个api里
     - 发送文件，需要什么格式？content-type: 
